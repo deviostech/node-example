@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatPro</title>
+    <link rel="stylesheet" href="css/mystyle.css">
+</head>
+<body>
+<div class="container">
+    <h1 class="heading">Chat Pro App</h1>
+    <div class="first" id="first">
+    </div>
+    <div class="second">
+        <form method="post" id="myform">
+            <input type="text" name="msg" id="msg" placeholder="Enter Your Message">
+            <button type="submit">Send</button>
+        </form>
+    </div>
+</div>    
+<script src="http://localhost:8000/socket.io/socket.io.js"></script>
+<script src="js/client.js"></script>
+</body>
+</html>

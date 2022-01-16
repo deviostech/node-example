@@ -1,0 +1,67 @@
+.container{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: palevioletred;
+}
+.first{
+    width: 100vw;
+    height: 80vh;
+    overflow: auto;
+}
+.second{
+    padding: 10px;
+    position: sticky;
+    bottom: 0px;
+    margin-top: 10px;
+    width: 97vw;
+    max-height: 10vh;
+    background-color: rgb(39, 27, 27);
+}
+.second input{
+    margin-left: 15%;
+    width: 65%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+.second button{
+    width: 5%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: green;
+    color: white;
+}
+.left,.right{
+    padding: 10px;
+    text-align: justify;
+    width: 70vw;
+    box-shadow: 5px 5px 10px black;
+    margin: 50px 0px;
+}
+.center{
+    margin-left: 40%;
+    width: 20vw;
+    float: left;
+    border-bottom: 5px solid grey;
+    text-align: center;
+}
+.left{
+    margin-left: 5px;
+    float: left;
+}
+.right{
+    float: right;
+    margin-right: 5px;
+}
+.heading{
+    position: sticky;
+    top: 10px;
+    background-color: rgb(53, 9, 248);
+    color: white;
+    font-family: impact;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px;
+}
